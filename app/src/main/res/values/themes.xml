@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.NewsApp" parent="Base.Theme.NewsApp" />
+    <style name="Theme.MyApp.Splash" parent="Theme.SplashScreen">
+        <!-- Customize your splash screen -->
+        <item name="windowSplashScreenBackground">#03A9F4</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.NewsApp</item>
+    </style>
 </resources>
